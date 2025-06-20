@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 82px;
 }
 
 .header {
@@ -33,6 +33,7 @@ header {
 
 .header-info {
     display: flex;
+    gap: 16px;
 }
 
 .header,
@@ -52,6 +53,14 @@ a,
     text-decoration: none;
 }
 
+a:hover {
+    color: #e7e7e7;
+}
+
+.header-info p {
+    margin-bottom: 16px;
+}
+
 li {
     font-size: 18px;
 }
@@ -64,6 +73,8 @@ h1 {
 }
 
 .image-placeholder {
+    width: 400px;
+    height: 200px;
     background-color: grey;
     color: white;
     display: flex;
@@ -79,10 +90,23 @@ button,
 }
 
 button {
+    width: 85px;
+    height: 25px;
     border-radius: 8px;
     color: #E5E7EB;
     border: 0;
     padding: 4px 16px;
+
+    transition-property:
+    width, height, line-height;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+}
+
+button:hover {
+    width: 90px;
+    height: 30px;
 }
 
 h2 {
