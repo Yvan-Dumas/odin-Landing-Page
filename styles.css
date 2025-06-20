@@ -127,7 +127,13 @@ figure {
 }
 
 .quote {
+    padding: 75px 175px 75px 175px;
     background-color: #E5E7EB;
+}
+
+#author {
+    font-weight: bold;
+    text-align: end;
 }
 
 .quote p {
@@ -136,6 +142,28 @@ figure {
     font-style: italic;
 }
 
+#white-background {
+    padding: 64px 128px 64px 128px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+h3 {
+    color: #F9FAF8;
+}
+
+#cta-button {
+    display: flex;
+}
+
 .footer {
     text-align: center;
+    color: #e7e7e7;
+    padding: 16px;
 }
