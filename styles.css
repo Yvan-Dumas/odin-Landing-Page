@@ -169,18 +169,28 @@ figure {
 
 .call-to-action {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 40px 70px 40px 70px;
     border-radius: 4px;
 }
 
 h3 {
     color: #F9FAF8;
+    margin: 0;
 }
 
 #cta-button {
     display: flex;
+    border: solid #F9FAF8;
+    border-radius: 8px;
+    width: 85px;
+    height: 25px;
+}
+
+#cta-text p {
+    color:#e7e7e7;
+    font-size: 12px;
 }
 
 .footer {
