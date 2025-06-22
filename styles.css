@@ -26,14 +26,14 @@ header {
 }
 
 .header {
-    padding: 8px 128px 64px 128px;
+    padding: 8px 200px 100px 200px;
     display: flex;
     flex-direction: column;
 }
 
 .header-info {
     display: flex;
-    gap: 16px;
+    gap: 30px;
 }
 
 .header,
@@ -73,8 +73,8 @@ h1 {
 }
 
 .image-placeholder {
-    width: 400px;
-    height: 200px;
+    width: 550px;
+    height: 275px;
     background-color: grey;
     color: white;
     display: flex;
@@ -90,12 +90,13 @@ button,
 }
 
 button {
-    width: 85px;
-    height: 25px;
+    width: 125px;
+    height: 30px;
     border-radius: 8px;
     color: #E5E7EB;
     border: 0;
     padding: 4px 16px;
+    font-size: 18px;
 
     transition-property:
     width, height, line-height;
@@ -105,21 +106,22 @@ button {
 }
 
 button:hover {
-    width: 90px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
 }
 
 h2 {
     text-align: center;
     margin-top: 30px;
     font-weight: 900;
+    font-size: 36px;
 }
 
 .information {
     display: flex;
-    justify-content: space-evenly;
-    padding: 10px 175px 75px 175px;
-    gap: 30px;
+    justify-content: center;
+    padding: 10px 175px 150px 175px;
+    gap: 10px;
 }
 
 .illustration {
@@ -135,8 +137,8 @@ h2 {
 }
 
 .illustration-image {
-    height: 125px;
-    width: 125px;
+    height: 200px;
+    width: 200px;
     border: solid #3882F6;
     border-radius: 8px;
     margin-bottom: 5px;
@@ -147,7 +149,7 @@ figure {
 }
 
 .quote {
-    padding: 75px 175px 75px 175px;
+    padding: 150px 230px 150px 230px;
     background-color: #E5E7EB;
 }
 
@@ -164,33 +166,34 @@ figure {
 }
 
 #white-background {
-    padding: 64px 128px 64px 128px;
+    padding: 120px 200px 120px 200px;
 }
 
 .call-to-action {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 70px 40px 70px;
+    padding: 60px 100px 60px 100px;
     border-radius: 4px;
 }
 
 h3 {
     color: #F9FAF8;
     margin: 0;
+    font-size: 22px;
 }
 
 #cta-button {
     display: flex;
     border: solid #F9FAF8;
     border-radius: 8px;
-    width: 85px;
-    height: 25px;
+    width: 125px;
+    height: 30px;
 }
 
 #cta-text p {
     color:#e7e7e7;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .footer {
